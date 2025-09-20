@@ -3,26 +3,25 @@
 🔗 Repository: [Web-Injection-Detector](https://github.com/Karthikeyan1202/Web-Injection-Detector)  
 
 ---
-## 👨‍💻 Contributors  
+## 👨‍💻 Contributors  
 
 <p align="center">
-  <a href="https://github.com/Karthikeyan1202">
-    <img src="https://avatars.githubusercontent.com/u/00000000?v=4" width="80;" style="border-radius:50%;" alt="Karthikeyan"/>
+  <a href="https://github.com/Karthikeyan1202" title="Karthikeyan1202">
+    <img src="https://avatars.githubusercontent.com/Karthikeyan1202" width="80" style="border-radius:50%;" alt="Karthikeyan1202"/>
   </a>
-  <a href="https://github.com/BharathRam125">
-    <img src="https://avatars.githubusercontent.com/u/00000000?v=4" width="80;" style="border-radius:50%;" alt="Bharath"/>
+  <a href="https://github.com/BharathRam125" title="BharathRam125">
+    <img src="https://avatars.githubusercontent.com/BharathRam125" width="80" style="border-radius:50%;" alt="BharathRam125"/>
   </a>
-  <a href="https://github.com/SaiyanSai">
-    <img src="https://avatars.githubusercontent.com/u/00000000?v=4" width="80;" style="border-radius:50%;" alt="Saiyan"/>
+  <a href="https://github.com/SaiyanSai" title="SaiyanSai">
+    <img src="https://avatars.githubusercontent.com/SaiyanSai" width="80" style="border-radius:50%;" alt="SaiyanSai"/>
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Karthikeyan1202"><b>@Karthikeyan1202</b></a> • 
-  <a href="https://github.com/BharathRam125"><b>@BharathRam125</b></a> • 
+  <a href="https://github.com/Karthikeyan1202"><b>@Karthikeyan1202</b></a> • 
+  <a href="https://github.com/BharathRam125"><b>@BharathRam125</b></a> • 
   <a href="https://github.com/SaiyanSai"><b>@SaiyanSai</b></a>
 </p>
-
 ---
 
 <p align="center">
