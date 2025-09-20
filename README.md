@@ -104,5 +104,6 @@ By structuring web request payloads into **graph-based representations**, the mo
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=22&duration=4000&pause=1000&color=FF5733&center=true&vCenter=true&width=700&lines=Securing+the+Web+from+Injection+Attacks...;Anime+meets+Cybersecurity...;Code+is+our+Sword+⚔️;Zero+Trust+Begins+Here..." alt="Typing Animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=22&duration=4000&pause=1000&color=FF5733&center=true&vCenter=true&width=700&lines=Securing+the+Web+from+Injection+Attacks...;Powered+by+Graph+Neural+Networks+%F0%9F%94%8D;Advancing+Cybersecurity+Research...;Towards+Zero+Trust+Architecture..." alt="Typing Animation">
 </p>
+
