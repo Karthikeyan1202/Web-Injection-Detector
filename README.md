@@ -5,7 +5,7 @@
 ---
 ## 👨‍💻 Contributors  
 
-<p align="center">
+<p align="left">
   <a href="https://github.com/Karthikeyan1202" title="Karthikeyan1202">
     <img src="https://avatars.githubusercontent.com/Karthikeyan1202" width="80" style="border-radius:50%;" alt="Karthikeyan1202"/>
   </a>
@@ -17,7 +17,7 @@
   </a>
 </p>
 
-<p align="center">
+<p align="left">
   <a href="https://github.com/Karthikeyan1202"><b>@Karthikeyan1202</b></a> • 
   <a href="https://github.com/BharathRam125"><b>@BharathRam125</b></a> • 
   <a href="https://github.com/SaiyanSai"><b>@SaiyanSai</b></a>
