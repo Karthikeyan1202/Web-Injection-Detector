@@ -3,13 +3,25 @@
 🔗 Repository: [Web-Injection-Detector](https://github.com/Karthikeyan1202/Web-Injection-Detector)  
 
 ---
+## 👨‍💻 Contributors  
 
-## 👨‍💻 Project Team  
-| Member | GitHub Profile |
-|--------|----------------|
-| 🧑‍🚀 Karthikeyan | [@Karthikeyan1202](https://github.com/Karthikeyan1202) |
-| ⚔️ Bharath | [@BharathRam125](https://github.com/BharathRam125) |
-| 🐉 Saiyan | [@SaiyanSai](https://github.com/SaiyanSai) |
+<p align="center">
+  <a href="https://github.com/Karthikeyan1202">
+    <img src="https://avatars.githubusercontent.com/u/00000000?v=4" width="80;" style="border-radius:50%;" alt="Karthikeyan"/>
+  </a>
+  <a href="https://github.com/BharathRam125">
+    <img src="https://avatars.githubusercontent.com/u/00000000?v=4" width="80;" style="border-radius:50%;" alt="Bharath"/>
+  </a>
+  <a href="https://github.com/SaiyanSai">
+    <img src="https://avatars.githubusercontent.com/u/00000000?v=4" width="80;" style="border-radius:50%;" alt="Saiyan"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Karthikeyan1202"><b>@Karthikeyan1202</b></a> • 
+  <a href="https://github.com/BharathRam125"><b>@BharathRam125</b></a> • 
+  <a href="https://github.com/SaiyanSai"><b>@SaiyanSai</b></a>
+</p>
 
 ---
 
