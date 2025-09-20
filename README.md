@@ -1,8 +1,3 @@
-<!-- Futuristic Anime Banner -->
-<p align="center">
-  <img src="https://i.imgur.com/dZ0c5dF.gif" width="800"/>
-</p>
-
 # 🛡️ Web Injection Detector – GCN-based Model  
 📌 *M.Tech (Cyber Security) – Semester II Minor Project*  
 🔗 Repository: [Web-Injection-Detector](https://github.com/Karthikeyan1202/Web-Injection-Detector)  
@@ -19,7 +14,7 @@
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=650&lines=Initializing+Security+Protocols...;Deploying+GCN-based+Detector...;Scanning+for+SQLi+XSS+Command+Injection...;Web+Applications+Secured!+%E2%9C%85" alt="Typing Animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Initializing+Security+Protocols...;Deploying+GCN-based+Detector...;Scanning+for+SQLi+XSS+Command+Injection...;Web+Applications+Secured!+%E2%9C%85" alt="Typing Animation">
 </p>
 
 ---
@@ -109,10 +104,5 @@ By structuring web request payloads into **graph-based representations**, the mo
 ---
 
 <p align="center">
-  <img src="https://github.com/Karthikeyan1202/Karthikeyan1202/blob/output/github-contribution-grid-snake.svg" alt="snake animation"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=22&duration=4000&pause=1000&color=FF5733&center=true&vCenter=true&width=700&lines=Securing+the+Web+from+Injection+Attacks...;Anime+meets+Cybersecurity...;Code+is+our+Sword+⚔️;Zero+Trust+Begins+Here..." alt="Typing Animation">
 </p>
-
----
-
-> 🔐 *“Securing the web by detecting injection attacks before they strike.”*  
-> ✨ *Anime meets Cybersecurity – Code is our sword ⚔️*
