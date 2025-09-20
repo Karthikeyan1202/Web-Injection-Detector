@@ -1,6 +1,26 @@
+<!-- Futuristic Anime Banner -->
+<p align="center">
+  <img src="https://i.imgur.com/dZ0c5dF.gif" width="800"/>
+</p>
+
 # 🛡️ Web Injection Detector – GCN-based Model  
-📌 M.Tech (Cyber Security) – Semester II Minor Project  
+📌 *M.Tech (Cyber Security) – Semester II Minor Project*  
 🔗 Repository: [Web-Injection-Detector](https://github.com/Karthikeyan1202/Web-Injection-Detector)  
+
+---
+
+## 👨‍💻 Project Team  
+| Member | GitHub Profile |
+|--------|----------------|
+| 🧑‍🚀 Karthikeyan | [@Karthikeyan1202](https://github.com/Karthikeyan1202) |
+| ⚔️ Bharath | [@BharathRam125](https://github.com/BharathRam125) |
+| 🐉 Saiyan | [@SaiyanSai](https://github.com/SaiyanSai) |
+
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=650&lines=Initializing+Security+Protocols...;Deploying+GCN-based+Detector...;Scanning+for+SQLi+XSS+Command+Injection...;Web+Applications+Secured!+%E2%9C%85" alt="Typing Animation">
+</p>
 
 ---
 
@@ -9,82 +29,90 @@ A **Graph Convolutional Network (GCN)-based system** for detecting **Web Injecti
 By structuring web request payloads into **graph-based representations**, the model enhances **pattern recognition and anomaly detection**.  
 
 ⚠️ **Disclaimer**  
-- 🚧 This model is still under development  
-- 🗂️ Dataset used is a **test dataset** and may not cover all real-world cases  
-- 🛑 Focused only on **SQL Injection, XSS, and Command Injection**  
-- ⚠ Dataset imbalance detected → needs more **XSS & command injection samples**  
+- 🚧 Work-in-progress (research stage)  
+- 🗂️ Dataset used is experimental (test coverage only)  
+- 🛑 Focused on **SQL Injection, XSS, Command Injection**  
+- ⚖️ Dataset imbalance requires improvement for XSS/Command Injection  
 
 ---
 
 ## 🏗️ Model Architecture  
-✨ The detection engine is powered by a **GCN (Graph Convolutional Network)** with:  
-- 🔹 **3-layer GCN** for feature extraction  
-- 🔹 **Batch Normalization & Dropout** for regularization  
-- 🔹 **Fully Connected Layers** for classification  
-- 🔹 **Character-level Input Processing** for fine-grained pattern analysis  
+✨ Powered by **Graph Convolutional Networks (GCN)**:  
+- 🔹 3-Layer GCN for feature extraction  
+- 🔹 Batch Normalization & Dropout for stability  
+- 🔹 Fully Connected Layers for classification  
+- 🔹 Character-level input processing for fine-grained detection  
 
 ---
 
 ### 🔍 Model Insights  
-✔ **Character-based analysis** improves detection of **obfuscated payloads** (e.g., encoding or insertion tricks).  
-✔ **Graph-based input** learns relationships between characters → better recognition of subtle attack variations.  
-✔ Strong results for **SQLi**, but performance dips on **XSS/Command Injection** due to class imbalance.  
+✔ Detects **obfuscated payloads** (encoding, bypass tricks)  
+✔ Graph structure learns **relationships between characters**  
+✔ High performance on **SQL Injection**  
+❌ Needs better balance for **XSS & Command Injection**  
 
 ---
 
 ### ✅ Pros vs ❌ Cons  
 
 **✅ Strengths**  
-- Robust feature extraction with GCN  
-- Fine-grained character-level analysis  
-- Regularization improves generalization  
-- Scalable to other security tasks  
+- 🧠 Robust graph-based feature extraction  
+- 🔍 Fine-grained character-level analysis  
+- ⚡ Regularization improves generalization  
+- 🔒 Scalable to other security tasks  
 
 **❌ Limitations**  
-- Computationally heavy compared to rule-based approaches  
-- Sensitive to dataset imbalance  
-- Limited interpretability  
+- 🖥️ Computationally heavy  
+- ⚖️ Sensitive to dataset imbalance  
+- 🕵️ Limited interpretability vs. rule-based methods  
 
 ---
 
 ## 📂 Dataset & Preprocessing  
 - 📊 **Original Dataset**: [SQLi & XSS Dataset](https://www.kaggle.com/datasets/alextrinity/sqli-xss-dataset)  
-- ➕ **Added Benign Samples**:  
-  - Common usernames & passwords (RockYou)  
-  - Non-malicious queries & admin text  
-  - General short text samples  
+- ➕ **Benign Samples Added**:  
+  - RockYou usernames & passwords  
+  - Admin/normal queries  
+  - Randomized short phrases  
 
-**Preprocessing:**  
-- Converted raw payloads → **graph structure**  
-- Tokenization tuned for **fine-grained representation**  
-- Scripts & modified datasets are included in this repo  
+🔧 **Preprocessing Pipeline**  
+- Raw payloads ➝ **graph conversion**  
+- Character-level tokenization  
+- Feature representation optimized for GCN  
 
 ---
 
-## 🔗 Resources & References  
+## 🔗 References & Inspiration  
 - 📌 Dataset: [SQLi & XSS Dataset](https://www.kaggle.com/datasets/alextrinity/sqli-xss-dataset)  
-- 📌 Preprocessing & Code (inspired by earlier forks):  
+- 📌 Forks & Baselines:  
   - [BharathRam125/InjectionDetector](https://github.com/BharathRam125/InjectionDetector)  
   - [SaiyanSai/InjectionDetector](https://github.com/SaiyanSai/InjectionDetector)  
 
-✨ This repo (**Web-Injection-Detector**) builds upon prior work, with improvements and custom modifications as part of **M.Tech Minor Project**.
+✨ This repo (**Web-Injection-Detector**) builds upon prior forks with **custom modifications & improvements** as part of **M.Tech Minor Project**.
 
 ---
 
 ## 🚀 Future Work  
-- ⚖️ Improve **class balance** (more XSS & command injection samples)  
-- 📈 Enhance **feature representation** with embeddings  
-- 🌍 Expand datasets with **real-world benign & malicious traffic**  
-- ⚡ Tune GCN hyperparameters for higher accuracy  
-- 🌐 Deploy in real-time **WAF pipelines**  
+- ⚖️ Balance datasets (XSS & Command Injection)  
+- 📈 Enhance tokenization with embeddings  
+- 🌍 Collect real-world benign + malicious samples  
+- ⚡ Tune GCN hyperparameters  
+- 🌐 Deploy detector inside **WAF pipelines**  
 
 ---
 
 ## 📌 Project Status  
 ✅ Completed as **M.Tech Semester II Minor Project**  
-🛡️ Focus: Web Security – Injection Attack Detection  
-🚀 Foundation for future research in **Zero Trust & Policy Enforcement**  
+🛡️ Domain: Web Security – Injection Attack Detection  
+🚀 Extensible towards **Zero Trust & Policy Enforcement Research**  
 
 ---
 
-> 🔐 *“Securing the web by detecting injection attacks before they strike.”*
+<p align="center">
+  <img src="https://github.com/Karthikeyan1202/Karthikeyan1202/blob/output/github-contribution-grid-snake.svg" alt="snake animation"/>
+</p>
+
+---
+
+> 🔐 *“Securing the web by detecting injection attacks before they strike.”*  
+> ✨ *Anime meets Cybersecurity – Code is our sword ⚔️*
