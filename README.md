@@ -73,4 +73,4 @@ By converting web payloads into **graph-based representations**, the system enab
 ## Project Status
 - Completed as **M.Tech Semester II Minor Project**  
 - Domain: Web Security – Injection Attack Detection  
-- Designed for extensibility towards **Zero Trust and Policy Enforcement research**  
+
