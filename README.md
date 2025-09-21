@@ -1,10 +1,10 @@
-# 🛡️ Web Injection Detector – GCN-based Model  
-📌 *M.Tech (Cyber Security) – Semester II Minor Project*  
+# Web Injection Detector – GCN-based Model  
+*M.Tech (Cyber Security) – Semester II Minor Project*  
 🔗 Repository: [Web-Injection-Detector](https://github.com/Karthikeyan1202/Web-Injection-Detector)  
 
 ---
-## 👨‍💻 Contributors  
 
+## Contributors
 <p align="left">
   <a href="https://github.com/Karthikeyan1202" title="Karthikeyan1202">
     <img src="https://avatars.githubusercontent.com/Karthikeyan1202" width="80" style="border-radius:50%;" alt="Karthikeyan1202"/>
@@ -18,105 +18,85 @@
 </p>
 
 <p align="left">
-  <a href="https://github.com/Karthikeyan1202"><b>@Karthikeyan1202</b></a> • 
-  <a href="https://github.com/BharathRam125"><b>@BharathRam125</b></a> • 
+  <a href="https://github.com/Karthikeyan1202"><b>@Karthikeyan1202</b></a> • 
+  <a href="https://github.com/BharathRam125"><b>@BharathRam125</b></a> • 
   <a href="https://github.com/SaiyanSai"><b>@SaiyanSai</b></a>
 </p>
 
-
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=4000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Initializing+Security+Protocols...;Deploying+GCN-based+Detector...;Scanning+for+SQLi+XSS+Command+Injection...;Web+Applications+Secured!+%E2%9C%85" alt="Typing Animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=4000&pause=1000&color=36BCF7&center=true&vCenter=true&width=750&lines=Web+Injection+Attack+Detection+using+GCN;Detecting+SQLi%2C+XSS+and+Command+Injection;Graph-Based+Payload+Modeling+for+Security;Advancing+M.Tech+Cybersecurity+Research">
 </p>
 
 ---
 
-## 📌 Overview  
-A **Graph Convolutional Network (GCN)-based system** for detecting **Web Injection Attacks** at the **Web Application Firewall (WAF)** level.  
-By structuring web request payloads into **graph-based representations**, the model enhances **pattern recognition and anomaly detection**.  
+## Overview
+A **Graph Convolutional Network (GCN)-based system** for detecting **Web Injection Attacks** at the Web Application Firewall (WAF) level.  
+Payloads are structured into **graph-based representations** to enhance anomaly detection and resist obfuscation.
 
-⚠️ **Disclaimer**  
-- 🚧 Work-in-progress (research stage)  
-- 🗂️ Dataset used is experimental (test coverage only)  
-- 🛑 Focused on **SQL Injection, XSS, Command Injection**  
-- ⚖️ Dataset imbalance requires improvement for XSS/Command Injection  
-
----
-
-## 🏗️ Model Architecture  
-✨ Powered by **Graph Convolutional Networks (GCN)**:  
-- 🔹 3-Layer GCN for feature extraction  
-- 🔹 Batch Normalization & Dropout for stability  
-- 🔹 Fully Connected Layers for classification  
-- 🔹 Character-level input processing for fine-grained detection  
+**Focus Areas**
+- SQL Injection (SQLi)  
+- Cross-Site Scripting (XSS)  
+- Command Injection  
 
 ---
 
-### 🔍 Model Insights  
-✔ Detects **obfuscated payloads** (encoding, bypass tricks)  
-✔ Graph structure learns **relationships between characters**  
-✔ High performance on **SQL Injection**  
-❌ Needs better balance for **XSS & Command Injection**  
+## Model Architecture
+- 3-Layer Graph Convolutional Network  
+- Batch Normalization & Dropout  
+- Fully Connected Classification Layers  
+- Character-level tokenization for fine-grained detection  
 
 ---
 
-### ✅ Pros vs ❌ Cons  
+## Key Insights
+**Strengths**
+- Graph-based feature extraction  
+- Resilient to obfuscation and bypass techniques  
+- Strong results on SQL Injection  
 
-**✅ Strengths**  
-- 🧠 Robust graph-based feature extraction  
-- 🔍 Fine-grained character-level analysis  
-- ⚡ Regularization improves generalization  
-- 🔒 Scalable to other security tasks  
-
-**❌ Limitations**  
-- 🖥️ Computationally heavy  
-- ⚖️ Sensitive to dataset imbalance  
-- 🕵️ Limited interpretability vs. rule-based methods  
+**Limitations**
+- Dataset imbalance affects XSS & Command Injection accuracy  
+- Computationally expensive  
+- Limited interpretability compared to rule-based methods  
 
 ---
 
-## 📂 Dataset & Preprocessing  
-- 📊 **Original Dataset**: [SQLi & XSS Dataset](https://www.kaggle.com/datasets/alextrinity/sqli-xss-dataset)  
-- ➕ **Benign Samples Added**:  
-  - RockYou usernames & passwords  
-  - Admin/normal queries  
-  - Randomized short phrases  
-
-🔧 **Preprocessing Pipeline**  
-- Raw payloads ➝ **graph conversion**  
-- Character-level tokenization  
-- Feature representation optimized for GCN  
+## Dataset & Preprocessing
+- **Base Dataset**: [SQLi & XSS Dataset](https://www.kaggle.com/datasets/alextrinity/sqli-xss-dataset)  
+- **Augmentation**: Benign payloads (RockYou dataset, admin queries, random strings)  
+- **Pipeline**:  
+  - Payloads → Graph conversion  
+  - Character-level tokenization  
+  - Feature encoding optimized for GCN  
 
 ---
 
-## 🔗 References & Inspiration  
-- 📌 Dataset: [SQLi & XSS Dataset](https://www.kaggle.com/datasets/alextrinity/sqli-xss-dataset)  
-- 📌 Forks & Baselines:  
+## References
+- Dataset: [SQLi & XSS Dataset](https://www.kaggle.com/datasets/alextrinity/sqli-xss-dataset)  
+- Baselines & Forks:  
   - [BharathRam125/InjectionDetector](https://github.com/BharathRam125/InjectionDetector)  
   - [SaiyanSai/InjectionDetector](https://github.com/SaiyanSai/InjectionDetector)  
 
-✨ This repo (**Web-Injection-Detector**) builds upon prior forks with **custom modifications & improvements** as part of **M.Tech Minor Project**.
+---
+
+## Future Work
+- Balance dataset for XSS & Command Injection  
+- Enhance tokenization with embeddings  
+- Collect real-world traffic samples  
+- Tune GCN hyperparameters  
+- Integrate with WAF pipelines for real-time deployment  
 
 ---
 
-## 🚀 Future Work  
-- ⚖️ Balance datasets (XSS & Command Injection)  
-- 📈 Enhance tokenization with embeddings  
-- 🌍 Collect real-world benign + malicious samples  
-- ⚡ Tune GCN hyperparameters  
-- 🌐 Deploy detector inside **WAF pipelines**  
-
----
-
-## 📌 Project Status  
-✅ Completed as **M.Tech Semester II Minor Project**  
-🛡️ Domain: Web Security – Injection Attack Detection  
-🚀 Extensible towards **Zero Trust & Policy Enforcement Research**  
+## Project Status
+- Completed as **M.Tech Semester II Minor Project**  
+- Domain: **Web Security – Injection Detection**  
+- Extensible towards **Zero Trust & Policy Enforcement**  
 
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=22&duration=4000&pause=1000&color=FF5733&center=true&vCenter=true&width=700&lines=Securing+the+Web+from+Injection+Attacks...;Powered+by+Graph+Neural+Networks+%F0%9F%94%8D;Advancing+Cybersecurity+Research...;Towards+Zero+Trust+Architecture..." alt="Typing Animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3500&pause=1200&color=FF6B6B&center=true&vCenter=true&width=750&lines=Securing+the+Web+from+Injection+Attacks;Powered+by+Graph+Neural+Networks;Towards+Zero+Trust+Architecture">
 </p>
-
