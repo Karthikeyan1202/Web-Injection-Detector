@@ -1,5 +1,5 @@
 # Web Injection Detector – GCN-based Model  
-*M.Tech (Cyber Security) – Semester II Minor Project*  
+*M.Tech (Cyber Security) – Semester (II) Minor Project*  
 Repository: [Web-Injection-Detector](https://github.com/Karthikeyan1202/Web-Injection-Detector)  
 
 ---
