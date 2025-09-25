@@ -1,7 +1,11 @@
 # 🛡️ Web Injection Detector – GCN-based Model  
 *M.Tech (Cyber Security) – Semester (II) Minor Project*  
 
-📂 Repository: [![GitHub Repo](https://img.shields.io/badge/GitHub-Web--Injection--Detector-blue?logo=github)](https://github.com/Karthikeyan1202/Web-Injection-Detector)  
+[![GitHub Repo stars](https://img.shields.io/github/stars/Karthikeyan1202/Web-Injection-Detector?style=flat&logo=github)](https://github.com/Karthikeyan1202/Web-Injection-Detector/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Karthikeyan1202/Web-Injection-Detector?style=flat&logo=github)](https://github.com/Karthikeyan1202/Web-Injection-Detector/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/Karthikeyan1202/Web-Injection-Detector?logo=github)](https://github.com/Karthikeyan1202/Web-Injection-Detector/issues)
+![License](https://img.shields.io/badge/License-MIT-green?logo=open-source-initiative)
+![Last Commit](https://img.shields.io/github/last-commit/Karthikeyan1202/Web-Injection-Detector?logo=git&color=yellow)
 
 ---
 
@@ -9,8 +13,13 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)  
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)  
 ![PyTorch](https://img.shields.io/badge/PyTorch-Framework-red?logo=pytorch)  
-![NumPy](https://img.shields.io/badge/NumPy-Matrix%20Ops-lightblue?logo=numpy)  
+![NumPy](https://img.shields.io/badge/NumPy-Data%20Ops-lightblue?logo=numpy)  
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-purple?logo=pandas)  
+
+📊 **Languages Used**  
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-98.5%25-orange?logo=jupyter)  
+![Python](https://img.shields.io/badge/Python-1.2%25-blue?logo=python)  
+![Other](https://img.shields.io/badge/Other-0.3%25-lightgrey)  
 
 ---
 
@@ -24,13 +33,13 @@
 ## 📖 Overview
 This project implements a **Graph Convolutional Network (GCN)-based approach** for detecting **Web Injection Attacks** at the **Web Application Firewall (WAF)** level.  
 
-By converting web payloads into **graph-based representations**, the model achieves better **pattern recognition** and detection of **obfuscated/adversarial payloads**.  
+By converting web payloads into **graph-based representations**, the model achieves superior **pattern recognition** and detection of **obfuscated/adversarial payloads**.  
 
-> 🛡️ Goal: Enhance **WAF security** with deep learning models that adapt beyond signature-based rules.  
+> 🛡️ **Goal**: Strengthen WAFs using **deep learning** beyond traditional signature-based rules.  
 
 ---
 
-## 🔍 Target Attacks
+## 🎯 Target Attacks
 - 🐍 **SQL Injection (SQLi)**  
 - 🌐 **Cross-Site Scripting (XSS)**  
 - 💻 **Command Injection**  
@@ -38,38 +47,41 @@ By converting web payloads into **graph-based representations**, the model achie
 ---
 
 ## 🏗️ Model Architecture
-📌 **Core Components**  
+📌 **Key Components**  
 - 🔹 Multi-layer **Graph Convolutional Network (GCN)**  
-- 🔹 **Batch Normalization** & **Dropout** for regularization  
+- 🔹 **Batch Normalization** & **Dropout**  
 - 🔹 Fully-connected **classification layers**  
-- 🔹 **Character-level tokenization** for payload representation  
+- 🔹 **Character-level tokenization**  
+
+📷 *(Insert Architecture Diagram here)*  
+`![Model Architecture](assets/model-architecture.png)`  
 
 ---
 
 ## 💡 Key Insights
 ✅ **Strengths**  
-- Learns **relational patterns** between payload characters  
-- Robust to **obfuscation & bypass** techniques  
-- Strong detection performance on **SQL Injection**  
+- Learns **relational patterns** in payloads  
+- Resistant to **obfuscation & bypass**  
+- Excellent detection of **SQL Injection**  
 
 ⚠️ **Limitations**  
-- Imbalance in dataset affects **XSS & Command Injection** results  
-- **Higher computation cost** vs. rule-based WAFs  
-- **Lower interpretability** compared to signature-based detection  
+- Dataset imbalance → weaker for **XSS & Command Injection**  
+- **Higher compute** vs rule-based detection  
+- Lower **interpretability** than signature-based WAFs  
 
 ---
 
 ## 📊 Dataset & Preprocessing
-- 📦 **Base Dataset**: [![Kaggle](https://img.shields.io/badge/Kaggle-SQLi%20%26%20XSS%20Dataset-20BEFF?logo=kaggle)](https://www.kaggle.com/datasets/alextrinity/sqli-xss-dataset)  
+- 📦 **Dataset**: [![Kaggle](https://img.shields.io/badge/Kaggle-SQLi%20%26%20XSS%20Dataset-20BEFF?logo=kaggle)](https://www.kaggle.com/datasets/alextrinity/sqli-xss-dataset)  
 - 📈 **Augmentations**:  
-  - Benign samples → RockYou dataset  
+  - RockYou benign samples  
   - Randomized queries  
   - Admin test data  
 
-⚙️ **Pipeline**  
-1️⃣ Raw payloads → Graph structures  
+🔄 **Pipeline**  
+1️⃣ Raw payloads → Graphs  
 2️⃣ Character-level tokenization  
-3️⃣ Encoded feature vectors → GCN layers  
+3️⃣ Encoded → GCN processing  
 
 ---
 
@@ -81,7 +93,14 @@ By converting web payloads into **graph-based representations**, the model achie
 ---
 
 ## 🚀 Future Work
-- ⚖️ Balance dataset for **XSS & Command Injection**  
-- 🔤 Incorporate **embeddings/tokenization improvements**  
-- 🌍 Collect **real-world benign & malicious traffic**  
-- 🔧 Optimize **hyperparameters** for hig
+- ⚖️ Balance **XSS & Command Injection** datasets  
+- 🔤 Explore **embeddings** for richer tokenization  
+- 🌍 Collect **real-world malicious/benign traffic**  
+- 🔧 Tune **hyperparameters** for peak accuracy  
+- 🛡️ Deploy in **production WAF pipelines**  
+
+---
+
+## 📌 Project Status
+✅ Completed – **M.Tech Semester II Minor Project**  
+🌐 Domain: **Web Security – Injection Attack Detection**  
