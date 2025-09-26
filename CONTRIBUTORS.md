@@ -7,7 +7,7 @@ We gratefully acknowledge the contributors to this project.
 ## 🔹 Core Contributors  
 
 ### 🧑‍💻 [Karthikeyan](https://github.com/Karthikeyan1202)  
-- Project Lead  
+- Co-developer  
 - Designed and implemented the **Graph Convolutional Network (GCN)** model  
 - Dataset preprocessing & augmentation  
 - README and documentation preparation  
