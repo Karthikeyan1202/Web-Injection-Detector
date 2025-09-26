@@ -53,8 +53,45 @@ By converting web payloads into **graph-based representations**, the model achie
 - 🔹 Fully-connected **classification layers**  
 - 🔹 **Character-level tokenization**  
 
-📷 *(Insert Architecture Diagram here)*  
-`![Model Architecture](assets/model-architecture.png)`  
+---
+
+## 📊 Model Training Performance  
+
+### 📈 Training vs Validation Accuracy
+![Training vs Validation Accuracy](assets/accuracy-train-vs-val.png)
+
+### 📉 Training Loss
+![Training Loss](assets/training-loss.png)
+
+---
+
+## 🕸️ Character-Based Graph Representations  
+
+### 🧩 Graph Construction Examples
+![Character Graph Example 1](assets/char-graph-example-1.png)  
+![Character Graph Example 2](assets/char-graph-example-2.png)  
+![Character Graph Example 3](assets/char-graph-example-3.png)
+
+---
+
+## 🖥️ Attack Detection Logs  
+
+### ⚔️ Attack Detection Logs
+![Detection Logs](assets/detection-logs-.jpeg)
+
+---
+
+## ✅ Evaluation Metrics  
+
+### 🔎 Confusion Matrix
+![Confusion Matrix](assets/confusion-matrix.png)
+
+---
+
+## 📂 Dataset Distribution  
+
+### 📊 Dataset Distribution
+![Dataset Distribution](assets/dataset-distribution.png)
 
 ---
 
@@ -68,20 +105,6 @@ By converting web payloads into **graph-based representations**, the model achie
 - Dataset imbalance → weaker for **XSS & Command Injection**  
 - **Higher compute** vs rule-based detection  
 - Lower **interpretability** than signature-based WAFs  
-
----
-
-## 📊 Dataset & Preprocessing
-- 📦 **Dataset**: [![Kaggle](https://img.shields.io/badge/Kaggle-SQLi%20%26%20XSS%20Dataset-20BEFF?logo=kaggle)](https://www.kaggle.com/datasets/alextrinity/sqli-xss-dataset)  
-- 📈 **Augmentations**:  
-  - RockYou benign samples  
-  - Randomized queries  
-  - Admin test data  
-
-🔄 **Pipeline**  
-1️⃣ Raw payloads → Graphs  
-2️⃣ Character-level tokenization  
-3️⃣ Encoded → GCN processing  
 
 ---
 
